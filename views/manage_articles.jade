@@ -15,7 +15,7 @@ block content
       th Date Published
       th Author
       th
-     each article, i in articles 
+     each article, i in articles
       tr
        td #{article.title}
        td #{moment(article.created_at).format('MMMM Do YYYY, h:mm:ss a')}
